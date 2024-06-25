@@ -43,6 +43,12 @@ Ensure you have Python >= 3.9, <= 3.12. The required Python packages are listed 
   --generated_texts <GENERATED_TEXTS>
   ```
 
+### Arguments
+
+- `--model_name`: Name of the language model to use.
+- `--input_texts`: Input texts for the model. Provide as space-separated strings, e.g., "text1" "text2".
+- `--generated_texts`: Generated texts for attribution. Provide as space-separated strings, e.g., "generated1" "generated2".
+
 ### Example
   ```bash
   python code/masked_model.py
