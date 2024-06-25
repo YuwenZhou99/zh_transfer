@@ -21,3 +21,34 @@ Ensure you have Python >= 3.9, <= 3.12. The required Python packages are listed 
   ```
 
 ## Scripts
+
+1. 'causal_model_CLiMP.py' 'masked_model_CLiMP.py' 'causal_model_SLING.py' and 'masked_model_SLING.py': These four scripts run a causal or masked model on CLiMP and SLING perspectively, and get the accuracy on the specifc paradigm.
+
+### Example
+
+  ```bash
+  python code/causal_model_CLiMP.py --model_name bert-base-chinese
+  ```
+
+2. 'inseq_analsis.py': This script get the integrated gradients attribution for a specifc minimal pair.
+
+### Usage
+
+  ```bash
+  python code/inseq_analysis.py
+  --model_name <MODEL_NAME>
+  --input_texts <INPUT_TEXT>
+  --generated_texts <GENERATED_TEXTS>
+  ```
+
+### Example
+  ```bash
+  python code/masked_model.py
+  --model_name 01-ai/Yi-6B
+  --input_texts "女歌手离开了"
+  --generated_texts "女歌手离开了她。" "女歌手离开了他。"
+  ```
+
+## Datasets
+
+The scripts expect the dataset to be in the data directory. Ensure that the dataset files are placed correctly.
