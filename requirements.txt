@@ -1,0 +1,6 @@
+torch
+transformers
+inseq
+tqdm
+numpy
+nltk
