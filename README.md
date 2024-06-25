@@ -20,9 +20,9 @@ Ensure you have Python >= 3.9, <= 3.12. The required Python packages are listed 
   pip install -r requirements.txt
   ```
 
-## Scripts
+## Evaluate models on Chinese benchmarks
 
-1. `causal_model_CLiMP.py` `masked_model_CLiMP.py` `causal_model_SLING.py` and `masked_model_SLING.py`: These four scripts run a causal or masked model on CLiMP and SLING perspectively, and get the accuracy on the specifc paradigm.
+`causal_model_CLiMP.py` `masked_model_CLiMP.py` `causal_model_SLING.py` and `masked_model_SLING.py`: These four scripts run a causal or masked model on CLiMP and SLING perspectively, and get the accuracy on the specifc paradigm.
 
 ### Example
 
@@ -30,7 +30,9 @@ Ensure you have Python >= 3.9, <= 3.12. The required Python packages are listed 
   python code/causal_model_CLiMP.py --model_name bert-base-chinese
   ```
 
-2. `inseq_analsis.py`: This script get the integrated gradients attribution for a specifc minimal pair.
+## Evaluate models with Inseq
+
+`inseq_analsis.py`: This script get the integrated gradients attribution for a specifc minimal pair.
 
 ### Usage
 
