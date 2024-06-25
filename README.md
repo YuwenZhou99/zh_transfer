@@ -8,13 +8,13 @@ Ensure you have Python >= 3.9, <= 3.12. The required Python packages are listed 
 
 ## Installation
 
-1. Clone the repository:
+  1. Clone the repository:
   
   ```bash
   git clone https://github.com/YuwenZhou99/Master.git
 
 
-2. Install the required packages:
+  2. Install the required packages:
 
   ```bash
   pip install -r requirements.txt
