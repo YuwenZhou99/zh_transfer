@@ -27,7 +27,7 @@ Ensure you have Python >= 3.9, <= 3.12. The required Python packages are listed 
 ### Example
 
   ```bash
-  python code/causal_model_CLiMP.py --model_name bert-base-chinese
+  python code/masked_model_CLiMP.py --model_name bert-base-chinese
   ```
 
 ## Evaluate models with Inseq
