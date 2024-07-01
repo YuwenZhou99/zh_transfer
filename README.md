@@ -22,7 +22,7 @@ Ensure you have Python >= 3.9, <= 3.12. The required Python packages are listed 
 
 ## Evaluate models on Chinese benchmarks
 
-`causal_model_CLiMP.py` `masked_model_CLiMP.py` `causal_model_SLING.py` and `masked_model_SLING.py`: These four scripts run a causal or masked model on CLiMP and SLING perspectively, and get the accuracy on the specifc paradigm.
+`causal_model_CLiMP.py` `masked_model_CLiMP.py` `causal_model_SLING.py` and `masked_model_SLING.py`: These four scripts run a causal or masked model on CLiMP and SLING perspectively, and get the accuracy and perplexities on the specifc paradigm.
 
 ### Example
 
