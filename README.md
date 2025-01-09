@@ -53,7 +53,7 @@ Ensure you have Python >= 3.9, <= 3.12. The required Python packages are listed 
   ```bash
   python code/inseq_analysis.py
   --model_name 01-ai/Yi-6B
-  --input_texts "女歌手离开了"
+  --input_texts "女歌手离开了" "女歌手离开了"
   --generated_texts "女歌手离开了她。" "女歌手离开了他。"
   ```
 
